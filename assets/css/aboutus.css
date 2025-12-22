@@ -1,0 +1,46 @@
+body {
+background-color: rgb(242, 196, 234);
+}
+
+.container {
+width: 1200px;
+height: 680px;
+border: 1px solid white;
+border-radius: 30px;
+background-color: white;
+margin-left: 230px;
+margin-top: 60px;
+}
+
+h1 {
+font-size: 45px;
+text-align: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+font-weight: bold;
+}
+
+p {
+font-size: 30px;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+padding-top: 30px;
+}
+
+span:hover {
+text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) and (max-width: 800px) {
+body {
+    width: 600px;
+    margin: 0;
+}
+.container {
+    width: 500px;
+    margin: 10px 40px;
+}
+}
